@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+
 :root {
     --primary: #E88F2A;
     --secondary: #FAF3EB;
@@ -312,4 +312,12 @@ h6,
 .bg-img {
     background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
     background-size: cover;
+}
+.bg_img{
+    height: 90vh;
+    width: 100%;
+}
+#span1, #span2 {
+    color: #000000;
+    background-color: #000000;
 }
