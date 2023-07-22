@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
@@ -585,12 +583,12 @@ a:hover {
   transform-origin: left;
 }
 
-.navbar-default.navbar-trans .show > .nav-link:before,
-.navbar-default.navbar-trans .active > .nav-link:before,
+.navbar-default.navbar-trans .show>.nav-link:before,
+.navbar-default.navbar-trans .active>.nav-link:before,
 .navbar-default.navbar-trans .nav-link.show:before,
 .navbar-default.navbar-trans .nav-link.active:before,
-.navbar-default.navbar-reduce .show > .nav-link:before,
-.navbar-default.navbar-reduce .active > .nav-link:before,
+.navbar-default.navbar-reduce .show>.nav-link:before,
+.navbar-default.navbar-reduce .active>.nav-link:before,
 .navbar-default.navbar-reduce .nav-link.show:before,
 .navbar-default.navbar-reduce .nav-link.active:before {
   -webkit-transform: scaleX(1);
@@ -605,8 +603,8 @@ a:hover {
   color: #000000;
 }
 
-.navbar-default.navbar-trans .show > .nav-link,
-.navbar-default.navbar-trans .active > .nav-link,
+.navbar-default.navbar-trans .show>.nav-link,
+.navbar-default.navbar-trans .active>.nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
   color: #000000;
@@ -630,8 +628,8 @@ a:hover {
   color: #000000;
 }
 
-.navbar-default.navbar-reduce .show > .nav-link,
-.navbar-default.navbar-reduce .active > .nav-link,
+.navbar-default.navbar-reduce .show>.nav-link,
+.navbar-default.navbar-reduce .active>.nav-link,
 .navbar-default.navbar-reduce .nav-link.show,
 .navbar-default.navbar-reduce .nav-link.active {
   color: #000000;
@@ -2014,25 +2012,37 @@ footer .credits {
     font-size: 1.3rem;
   }
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.agents{
+.bg-image {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.agents {
   width: 80%;
   height: auto;
 }
-.agents_hover{
+
+.agents_hover {
   width: 80%;
   height: 500px;
 }
-.logo{
-  width: 30%;
+
+.logo {
+  width: 51%;
   height: auto;
 }
-.building{
+
+.building {
   width: 100%;
   height: 525px;
   /* margin-left: -10px; */
