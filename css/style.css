@@ -2043,7 +2043,27 @@ input::-webkit-inner-spin-button {
 }
 
 .building {
-  width: 100%;
+  width: 117%;
   height: 525px;
-  /* margin-left: -10px; */
+  margin-left: -50px;
+}
+
+@media (max-width: 575.98px) {
+  .HideOnMobile {
+    display: none;
+  }
+
+  .ShowOnMobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  .HideOnMobile {
+    display: initial;
+  }
+
+  .ShowOnMobile {
+    display: none;
+  }
 }
