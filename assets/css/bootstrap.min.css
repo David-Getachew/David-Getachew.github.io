@@ -4271,9 +4271,9 @@ fieldset:disabled .btn {
     color: var(--bs-nav-pills-link-active-color);
     background-color: var(--bs-nav-pills-link-active-bg);
     text-decoration: underline;
-    text-underline-offset: 0.825em;
-    text-decoration-thickness: 0.3em;
-    text-decoration-color: #07e919;
+    text-underline-offset: 0.82em;
+    text-decoration-thickness: 0.35em;
+    text-decoration-color: #0cb2e6;
 }
 
 .nav-fill .nav-item,
