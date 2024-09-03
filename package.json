@@ -1,0 +1,15 @@
+{
+  "name": "endeab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "watch":"tailwindcss build -i ./src/css/styles.css -o ./public/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
