@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./public/index.html"
+    "./public/index.html",
+    "./public/about.html"
   ],
   theme: {
     extend:{
       colors:{
         'yellow_endeab':'#fec72f',
         'blue_endeab':'#174a6b',
+      },
+      borderRadius:{
+            extraLarge:'12rem'
       },
       animation: {
         blob: "blob 7s infinite",
